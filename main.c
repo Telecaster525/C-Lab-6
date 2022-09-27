@@ -4,7 +4,7 @@
 int main(){
     printf("Task 1:\n");
     char m[4] = {'W','O','R','K'};
-    char *pm = m; //создал указатель на массив
+    char *pm = m;
     printf("%c %c \n%c %c\n", *pm,  *(pm+1), *(pm+2), *(pm+3));
     printf("Task 2:\n");
     char *m2 = (char*)malloc(4 * sizeof(char));
